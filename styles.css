@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  pad: 0;
+}
+
+body {
+  font-family: 'PT' sans-serif, "Inter", sans-serif;
+  background-color: #fedfff;
+}
+
+h1, h3{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container {
+  background-color: #bde;
+  color: #024452;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.submit {
+  border: none;
+  background-color: #5a6af9;
+  padding: 0.5rem;
+  border-radius: 1em;
+  margin-top: 2em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  transition: 0.4s ease;
+}
+
+.submit:hover {
+  background-color: #abb0b0;
+  color: #024452;
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+
+form {
+  margin: 0.5em auto;
+  width: 20em;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: large;
+  margin-bottom: 0.5em;
+  outline: none;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #ffedc0;
+  background-color: #fff;
+  height: 2.5em;
+}
+
+input:focus {
+  transform:scale(1.1);
+  border: 2px solid red;
+}
+
+.mad-lib {
+  width: 30em;
+  margin: 1.0em auto;
+}
+ b {
+  color: #2e3442;
+ }
+
+
+
+
+
+
+
+
