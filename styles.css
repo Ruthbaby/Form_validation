@@ -79,8 +79,9 @@ input {
 }
 
 input:focus {
-  transform:scale(1.1);
-  border: 2px solid red;
+  color: #bde;
+  /* transform:scale(1.1);
+  border: 2px solid red; */
 }
 
 .mad-lib {
